@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className='flex items-center justify-between'>
       <Link className='text-primary font-semibold text-2xl' href=''>
-        ET PIZZA BURGE
+        ET PIZZA 
       </Link>
       <nav className='flex items-center gap-8 text-gray-400 font-semibold'>
         <Link href={''}>Home</Link>
@@ -13,7 +13,7 @@ const Header = () => {
         <Link href={''}>Contact</Link>
         <Link
           href={''}
-          className='bg-primary rounded-full text-white px-4 py-2 px-8'
+          className='bg-primary rounded-full text-white py-2 px-8'
         >
           Login
         </Link>

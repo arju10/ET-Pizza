@@ -4,11 +4,11 @@ import './globals.css'
 const roboto = Roboto({ subsets: ['latin'], weight: ['400', '500', '700'] })
 
 export const metadata = {
-  title: 'ET Pizza Burge',
+  title: 'ET Pizza',
   description: 'Online pizza selling site'
 }
 
-export default function RootLayout({ children }) {
+export default function RootLayout ({ children }) {
   return (
     <html lang='en'>
       <body className={roboto.className}>
